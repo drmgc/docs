@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "le-bar", "index.html", [
+  [ "i3ipc++", "index.html", [
     [ "Modules", "modules.html", "modules" ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ]
