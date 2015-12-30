@@ -1,0 +1,7 @@
+<map id="i3ipc::ipc_error" name="i3ipc::ipc_error">
+<area shape="rect" id="node4" href="$de/db8/classi3ipc_1_1eof__error.html" title="Socket return EOF, but expected a data. " alt="" coords="5,237,113,263"/>
+<area shape="rect" id="node5" href="$d2/d5d/classi3ipc_1_1invalid__header__error.html" title="Something wrong in message header (wrong magic number, message type etc.) " alt="" coords="137,229,277,271"/>
+<area shape="rect" id="node6" href="$de/d5c/classi3ipc_1_1invalid__reply__payload__error.html" title="If something wrong in a payload of i3&#39;s reply. " alt="" coords="301,229,431,271"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="145,80,269,107"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="155,5,259,32"/>
+</map>
