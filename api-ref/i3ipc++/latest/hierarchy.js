@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "i3ipc::buf_t", "d3/db3/structi3ipc_1_1buf__t.html", null ],
+    [ "i3ipc::container_t", "dd/d14/structi3ipc_1_1container__t.html", null ],
     [ "std::exception", null, [
       [ "std::runtime_error", null, [
         [ "i3ipc::ipc_error", "d0/dbc/classi3ipc_1_1ipc__error.html", [

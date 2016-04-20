@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['patch',['patch',['../de/df2/structi3ipc_1_1version__t.html#a936605bc8522919dc3e9192b5902e17d',1,'i3ipc::version_t']]],
-  ['payload',['payload',['../d3/db3/structi3ipc_1_1buf__t.html#a4c2fd8f1780589f8856ee28deb0ac0ac',1,'i3ipc::buf_t']]]
+  ['magic',['magic',['../d3/d89/structi3ipc_1_1header__t.html#a77181df86f81aaf1d3116f10f1d52231',1,'i3ipc::header_t']]],
+  ['major',['major',['../de/df2/structi3ipc_1_1version__t.html#a2a38038e4e85a4c49ab5ccb80e7ae193',1,'i3ipc::version_t']]],
+  ['minor',['minor',['../de/df2/structi3ipc_1_1version__t.html#abdfc81dc4db891e6ec996ab0da3a9995',1,'i3ipc::version_t']]]
 ];

@@ -28,10 +28,30 @@ var group__i3ipc =
       [ "minor", "de/df2/structi3ipc_1_1version__t.html#abdfc81dc4db891e6ec996ab0da3a9995", null ],
       [ "patch", "de/df2/structi3ipc_1_1version__t.html#a936605bc8522919dc3e9192b5902e17d", null ]
     ] ],
+    [ "container_t", "dd/d14/structi3ipc_1_1container__t.html", [
+      [ "border", "dd/d14/structi3ipc_1_1container__t.html#a08b3628ba19a0d7d4e487744c91165d5", null ],
+      [ "border_raw", "dd/d14/structi3ipc_1_1container__t.html#a2294aaac682d0c9859006baff40fa92f", null ],
+      [ "current_border_width", "dd/d14/structi3ipc_1_1container__t.html#a0cd4f0a9a80619efcb1a53b281a599ac", null ],
+      [ "deco_rect", "dd/d14/structi3ipc_1_1container__t.html#a8a8702fa9fc4ee7062e5a39b2b08b611", null ],
+      [ "focused", "dd/d14/structi3ipc_1_1container__t.html#a7b3b10a68d23e3d611cac2105386d1d9", null ],
+      [ "geometry", "dd/d14/structi3ipc_1_1container__t.html#a7aac8c38da9d6b904205b2e7a89a1039", null ],
+      [ "id", "dd/d14/structi3ipc_1_1container__t.html#a1b63ba7bce9c63d3f56d6e40daea3765", null ],
+      [ "layout", "dd/d14/structi3ipc_1_1container__t.html#ae86db540cc7437dedb580a125c662a6a", null ],
+      [ "layout_raw", "dd/d14/structi3ipc_1_1container__t.html#ad42b7661762e2817540ce74d1f0dbcb8", null ],
+      [ "name", "dd/d14/structi3ipc_1_1container__t.html#a702f880a1a9562152c4435d945c7edf2", null ],
+      [ "nodes", "dd/d14/structi3ipc_1_1container__t.html#a3b8fe1bbaaff0e175e8e178b7e32519b", null ],
+      [ "percent", "dd/d14/structi3ipc_1_1container__t.html#a743240d2258c6db1c4a007650128f539", null ],
+      [ "rect", "dd/d14/structi3ipc_1_1container__t.html#a0ceaaf3a2af084d3706938738d1801e4", null ],
+      [ "type", "dd/d14/structi3ipc_1_1container__t.html#a4e424e37b1fbc09422b460065e0d35da", null ],
+      [ "urgent", "dd/d14/structi3ipc_1_1container__t.html#a701bd67a44d779961ea4e5a3c04987fd", null ],
+      [ "window_rect", "dd/d14/structi3ipc_1_1container__t.html#a1d9dd0d69fa562a2f0dc8de2a5efbba4", null ],
+      [ "xwindow_id", "dd/d14/structi3ipc_1_1container__t.html#ac9ff840a2dfd535e61a8fea859b3e7fb", null ]
+    ] ],
     [ "I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html", [
       [ "I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html#a11757f611ad0f3a199cc92ec5aa100b5", null ],
       [ "~I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html#ac95f1269c661bae37c9175b343ab311a", null ],
       [ "get_outputs", "d7/d4b/classi3ipc_1_1_i3_connection.html#aa74cd0d190afb047b8cdcc63b994b6fb", null ],
+      [ "get_tree", "d7/d4b/classi3ipc_1_1_i3_connection.html#ab27168254fbc1b1f7c67d69498e1167e", null ],
       [ "get_version", "d7/d4b/classi3ipc_1_1_i3_connection.html#a20a279e85b477538c5b73d4eb6e6d2c9", null ],
       [ "get_workspaces", "d7/d4b/classi3ipc_1_1_i3_connection.html#ae60c2b2cdc2fcda32c55a42ceaecadd2", null ],
       [ "handle_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#abbc7949e01bb577e4a4bb2d94802a751", null ],
@@ -45,6 +65,8 @@ var group__i3ipc =
       [ "signal_window_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#af575840a5309908678a9b1782fcd772d", null ],
       [ "signal_workspace_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#a6ee14caf6fa7db63d28be7c3f320d907", null ]
     ] ],
+    [ "BorderStyle", "dc/db1/group__i3ipc.html#gaf57dcef1ca7b72ee6810f19785345eaf", null ],
+    [ "ContainerLayout", "dc/db1/group__i3ipc.html#ga4ee731789ffc5df6475d6f50112461c0", null ],
     [ "EventType", "dc/db1/group__i3ipc.html#ga4b48a64db35bd8869c95fbddb4641201", [
       [ "ET_WORKSPACE", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a76bbd2c14ebf6b63843e3ff3d50845e5", null ],
       [ "ET_OUTPUT", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a68c29c451e0607d802fe57d39804b2aa", null ],

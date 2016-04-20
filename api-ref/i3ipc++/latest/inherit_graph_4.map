@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d5/d1f/structi3ipc_1_1output__t.html" title="i3&#39;s output " alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,64,109,91"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="157,64,281,91"/>
+<area shape="rect" id="node3" href="$d0/dbc/classi3ipc_1_1ipc__error.html" title="Base class of i3 IPC errors. " alt="" coords="329,64,436,91"/>
+<area shape="rect" id="node4" href="$de/db8/classi3ipc_1_1eof__error.html" title="Socket return EOF, but expected a data. " alt="" coords="500,5,608,32"/>
+<area shape="rect" id="node5" href="$d2/d5d/classi3ipc_1_1invalid__header__error.html" title="Something wrong in message header (wrong magic number, message type etc.) " alt="" coords="484,57,624,98"/>
+<area shape="rect" id="node6" href="$de/d5c/classi3ipc_1_1invalid__reply__payload__error.html" title="If something wrong in a payload of i3&#39;s reply. " alt="" coords="489,122,619,163"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clientmessagetype',['ClientMessageType',['../d5/dc1/group__i3ipc__util.html#ga6eae9939443587fa281ee88b58a7819b',1,'i3ipc']]]
+  ['borderstyle',['BorderStyle',['../dc/db1/group__i3ipc.html#gaf57dcef1ca7b72ee6810f19785345eaf',1,'i3ipc']]]
 ];

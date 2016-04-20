@@ -31,7 +31,7 @@
   <td style="padding-left: 0.5em;">
    <div id="projectname">i3ipc++
    </div>
-   <div id="projectbrief">A bar for the i3 window manager</div>
+   <div id="projectbrief">An C++ implementaiton of the i3 IPC</div>
   </td>
  </tr>
  </tbody>
@@ -118,6 +118,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df2/structi3ipc_1_1version__t.html">i3ipc::version_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version of i3.  <a href="../../de/df2/structi3ipc_1_1version__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d14/structi3ipc_1_1container__t.html">i3ipc::container_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A node of tree of windows.  <a href="../../dd/d14/structi3ipc_1_1container__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4b/classi3ipc_1_1_i3_connection.html">i3ipc::I3Connection</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to the i3.  <a href="../../d7/d4b/classi3ipc_1_1_i3_connection.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,6 +159,26 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga974e16ecaea3bedf7044c559f96ebd1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of window events.  <a href="../../dc/db1/group__i3ipc.html#ga974e16ecaea3bedf7044c559f96ebd1b">More...</a><br /></td></tr>
 <tr class="separator:ga974e16ecaea3bedf7044c559f96ebd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf57dcef1ca7b72ee6810f19785345eaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf57dcef1ca7b72ee6810f19785345eaf"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db1/group__i3ipc.html#gaf57dcef1ca7b72ee6810f19785345eaf">i3ipc::BorderStyle</a> : char { <b>UNKNOWN</b> = '?', 
+<b>NONE</b> = 'N', 
+<b>NORMAL</b> = 'n', 
+<b>ONE_PIXEL</b> = '1'
+ }</td></tr>
+<tr class="memdesc:gaf57dcef1ca7b72ee6810f19785345eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">A style of a container's border. <br /></td></tr>
+<tr class="separator:gaf57dcef1ca7b72ee6810f19785345eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ee731789ffc5df6475d6f50112461c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4ee731789ffc5df6475d6f50112461c0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db1/group__i3ipc.html#ga4ee731789ffc5df6475d6f50112461c0">i3ipc::ContainerLayout</a> : char { <br />
+&#160;&#160;<b>UNKNOWN</b> = '?', 
+<b>SPLIT_H</b> = 'h', 
+<b>SPLIT_V</b> = 'v', 
+<b>STACKED</b> = 's', 
+<br />
+&#160;&#160;<b>TABBED</b> = 't', 
+<b>DOCKAREA</b> = 'd', 
+<b>OUTPUT</b> = 'o'
+<br />
+ }</td></tr>
+<tr class="memdesc:ga4ee731789ffc5df6475d6f50112461c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type of a container's layout. <br /></td></tr>
+<tr class="separator:ga4ee731789ffc5df6475d6f50112461c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -280,7 +303,7 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Dec 30 2015 20:35:04 for i3ipc++ by
+    <li class="footer">Generated on Wed Apr 20 2016 21:03:32 for i3ipc++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -3,6 +3,7 @@ var classi3ipc_1_1_i3_connection =
     [ "I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html#a11757f611ad0f3a199cc92ec5aa100b5", null ],
     [ "~I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html#ac95f1269c661bae37c9175b343ab311a", null ],
     [ "get_outputs", "d7/d4b/classi3ipc_1_1_i3_connection.html#aa74cd0d190afb047b8cdcc63b994b6fb", null ],
+    [ "get_tree", "d7/d4b/classi3ipc_1_1_i3_connection.html#ab27168254fbc1b1f7c67d69498e1167e", null ],
     [ "get_version", "d7/d4b/classi3ipc_1_1_i3_connection.html#a20a279e85b477538c5b73d4eb6e6d2c9", null ],
     [ "get_workspaces", "d7/d4b/classi3ipc_1_1_i3_connection.html#ae60c2b2cdc2fcda32c55a42ceaecadd2", null ],
     [ "handle_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#abbc7949e01bb577e4a4bb2d94802a751", null ],

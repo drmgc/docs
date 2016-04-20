@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['i3connection',['I3Connection',['../d7/d4b/classi3ipc_1_1_i3_connection.html',1,'i3ipc']]],
-  ['invalid_5fheader_5ferror',['invalid_header_error',['../d2/d5d/classi3ipc_1_1invalid__header__error.html',1,'i3ipc']]],
-  ['invalid_5freply_5fpayload_5ferror',['invalid_reply_payload_error',['../de/d5c/classi3ipc_1_1invalid__reply__payload__error.html',1,'i3ipc']]],
-  ['ipc_5ferror',['ipc_error',['../d0/dbc/classi3ipc_1_1ipc__error.html',1,'i3ipc']]]
+  ['header_5ft',['header_t',['../d3/d89/structi3ipc_1_1header__t.html',1,'i3ipc']]]
 ];

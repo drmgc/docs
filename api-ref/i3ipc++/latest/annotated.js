@@ -2,6 +2,7 @@ var annotated =
 [
     [ "i3ipc", null, [
       [ "buf_t", "d3/db3/structi3ipc_1_1buf__t.html", "d3/db3/structi3ipc_1_1buf__t" ],
+      [ "container_t", "dd/d14/structi3ipc_1_1container__t.html", "dd/d14/structi3ipc_1_1container__t" ],
       [ "eof_error", "de/db8/classi3ipc_1_1eof__error.html", null ],
       [ "header_t", "d3/d89/structi3ipc_1_1header__t.html", "d3/d89/structi3ipc_1_1header__t" ],
       [ "I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html", "d7/d4b/classi3ipc_1_1_i3_connection" ],
