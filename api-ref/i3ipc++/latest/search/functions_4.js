@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['realloc_5fpayload_5fto_5fheader',['realloc_payload_to_header',['../d3/db3/structi3ipc_1_1buf__t.html#a59044370acefdb2e261721136781a6cf',1,'i3ipc::buf_t']]]
+  ['prepare_5fto_5fevent_5fhandling',['prepare_to_event_handling',['../d8/dd6/classi3ipc_1_1connection.html#add3d343cca548a3a945f5fa7211568e8',1,'i3ipc::connection']]]
 ];

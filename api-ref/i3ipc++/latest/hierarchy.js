@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "i3ipc::buf_t", "d3/db3/structi3ipc_1_1buf__t.html", null ],
+    [ "i3ipc::connection", "d8/dd6/classi3ipc_1_1connection.html", null ],
     [ "i3ipc::container_t", "dd/d14/structi3ipc_1_1container__t.html", null ],
     [ "std::exception", null, [
       [ "std::runtime_error", null, [
@@ -12,9 +13,10 @@ var hierarchy =
       ] ]
     ] ],
     [ "i3ipc::header_t", "d3/d89/structi3ipc_1_1header__t.html", null ],
-    [ "i3ipc::I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html", null ],
     [ "i3ipc::output_t", "d5/d1f/structi3ipc_1_1output__t.html", null ],
     [ "i3ipc::rect_t", "dd/dba/structi3ipc_1_1rect__t.html", null ],
     [ "i3ipc::version_t", "de/df2/structi3ipc_1_1version__t.html", null ],
+    [ "i3ipc::window_event_t", "d7/dad/structi3ipc_1_1window__event__t.html", null ],
+    [ "i3ipc::workspace_event_t", "d9/d0c/structi3ipc_1_1workspace__event__t.html", null ],
     [ "i3ipc::workspace_t", "d3/d09/structi3ipc_1_1workspace__t.html", null ]
 ];

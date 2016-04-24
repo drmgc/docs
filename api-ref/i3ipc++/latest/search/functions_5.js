@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['send_5fcommand',['send_command',['../d7/d4b/classi3ipc_1_1_i3_connection.html#ab2cbce2ffd11937ac2148325545d120c',1,'i3ipc::I3Connection']]],
-  ['subscribe',['subscribe',['../d7/d4b/classi3ipc_1_1_i3_connection.html#a41fbf53aa5befe0ec3a469f7c642bb88',1,'i3ipc::I3Connection']]]
+  ['realloc_5fpayload_5fto_5fheader',['realloc_payload_to_header',['../d3/db3/structi3ipc_1_1buf__t.html#a59044370acefdb2e261721136781a6cf',1,'i3ipc::buf_t']]]
 ];

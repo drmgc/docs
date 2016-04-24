@@ -47,23 +47,32 @@ var group__i3ipc =
       [ "window_rect", "dd/d14/structi3ipc_1_1container__t.html#a1d9dd0d69fa562a2f0dc8de2a5efbba4", null ],
       [ "xwindow_id", "dd/d14/structi3ipc_1_1container__t.html#ac9ff840a2dfd535e61a8fea859b3e7fb", null ]
     ] ],
-    [ "I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html", [
-      [ "I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html#a11757f611ad0f3a199cc92ec5aa100b5", null ],
-      [ "~I3Connection", "d7/d4b/classi3ipc_1_1_i3_connection.html#ac95f1269c661bae37c9175b343ab311a", null ],
-      [ "get_outputs", "d7/d4b/classi3ipc_1_1_i3_connection.html#aa74cd0d190afb047b8cdcc63b994b6fb", null ],
-      [ "get_tree", "d7/d4b/classi3ipc_1_1_i3_connection.html#ab27168254fbc1b1f7c67d69498e1167e", null ],
-      [ "get_version", "d7/d4b/classi3ipc_1_1_i3_connection.html#a20a279e85b477538c5b73d4eb6e6d2c9", null ],
-      [ "get_workspaces", "d7/d4b/classi3ipc_1_1_i3_connection.html#ae60c2b2cdc2fcda32c55a42ceaecadd2", null ],
-      [ "handle_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#abbc7949e01bb577e4a4bb2d94802a751", null ],
-      [ "prepare_to_event_handling", "d7/d4b/classi3ipc_1_1_i3_connection.html#acf9e30c414cd75a2b92e0d3537eee05c", null ],
-      [ "send_command", "d7/d4b/classi3ipc_1_1_i3_connection.html#ab2cbce2ffd11937ac2148325545d120c", null ],
-      [ "subscribe", "d7/d4b/classi3ipc_1_1_i3_connection.html#a41fbf53aa5befe0ec3a469f7c642bb88", null ],
-      [ "signal_barconfig_update_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#a6aff9e22eb91a27416c6d253257cef11", null ],
-      [ "signal_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#a8f46d056781f07735d2cde94da58fedc", null ],
-      [ "signal_mode_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#aef8c2bad8bdbaa1aa376f08592b3f02b", null ],
-      [ "signal_output_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#abea8e4a90f572c08ae9aae7970b369be", null ],
-      [ "signal_window_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#af575840a5309908678a9b1782fcd772d", null ],
-      [ "signal_workspace_event", "d7/d4b/classi3ipc_1_1_i3_connection.html#a6ee14caf6fa7db63d28be7c3f320d907", null ]
+    [ "workspace_event_t", "d9/d0c/structi3ipc_1_1workspace__event__t.html", [
+      [ "current", "d9/d0c/structi3ipc_1_1workspace__event__t.html#a5c5fe9073f2968bfa200001fbaf81213", null ],
+      [ "old", "d9/d0c/structi3ipc_1_1workspace__event__t.html#a6fce7e78a381b93c210ce5bf190da93f", null ],
+      [ "type", "d9/d0c/structi3ipc_1_1workspace__event__t.html#a2be1999d0dd22e8c19a489d8dba2c49e", null ]
+    ] ],
+    [ "window_event_t", "d7/dad/structi3ipc_1_1window__event__t.html", [
+      [ "container", "d7/dad/structi3ipc_1_1window__event__t.html#a7be6dde884b5c7a5dde8e9ccfdacfb33", null ],
+      [ "type", "d7/dad/structi3ipc_1_1window__event__t.html#a91ff29abb1cedc06c3213c25eff183d5", null ]
+    ] ],
+    [ "connection", "d8/dd6/classi3ipc_1_1connection.html", [
+      [ "connection", "d8/dd6/classi3ipc_1_1connection.html#a749d8b8e0c053ffbe555e24387f02ff3", null ],
+      [ "~connection", "d8/dd6/classi3ipc_1_1connection.html#a3aea264749b41bce98740d852100c025", null ],
+      [ "get_outputs", "d8/dd6/classi3ipc_1_1connection.html#ab24e2a7aace0d73708c4a55fe98788ad", null ],
+      [ "get_tree", "d8/dd6/classi3ipc_1_1connection.html#ab47924d9f13c7b268eb346acd7a2e085", null ],
+      [ "get_version", "d8/dd6/classi3ipc_1_1connection.html#a10076546f7debad998c8cdfce1b62ea1", null ],
+      [ "get_workspaces", "d8/dd6/classi3ipc_1_1connection.html#a9f3a445a3b2e7712b962aab321c3e1dc", null ],
+      [ "handle_event", "d8/dd6/classi3ipc_1_1connection.html#a7e92850b0cffa9f9924d1f8438c7ae9a", null ],
+      [ "prepare_to_event_handling", "d8/dd6/classi3ipc_1_1connection.html#add3d343cca548a3a945f5fa7211568e8", null ],
+      [ "send_command", "d8/dd6/classi3ipc_1_1connection.html#a8700d2eb4a2e72d6d64cce339b014b01", null ],
+      [ "subscribe", "d8/dd6/classi3ipc_1_1connection.html#a646ed413acecdc1952dd9968f3447691", null ],
+      [ "signal_barconfig_update_event", "d8/dd6/classi3ipc_1_1connection.html#a21e89b6b1a64a672552e6e8d3984d264", null ],
+      [ "signal_event", "d8/dd6/classi3ipc_1_1connection.html#ad8e20f7a2a6b7ab53c61cad046b15dae", null ],
+      [ "signal_mode_event", "d8/dd6/classi3ipc_1_1connection.html#a798a5c4ca76c34c73ccbda4b00c38ed2", null ],
+      [ "signal_output_event", "d8/dd6/classi3ipc_1_1connection.html#a585e58c3d21254c34941fa19299fbcd4", null ],
+      [ "signal_window_event", "d8/dd6/classi3ipc_1_1connection.html#acdf437c298aed934195c27d4d1062b38", null ],
+      [ "signal_workspace_event", "d8/dd6/classi3ipc_1_1connection.html#a22fc43e6efc42996645a03c17c05c4ec", null ]
     ] ],
     [ "BorderStyle", "dc/db1/group__i3ipc.html#gaf57dcef1ca7b72ee6810f19785345eaf", null ],
     [ "ContainerLayout", "dc/db1/group__i3ipc.html#ga4ee731789ffc5df6475d6f50112461c0", null ],
