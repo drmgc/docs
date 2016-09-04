@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "i3ipc::binding_t", "d5/d01/structi3ipc_1_1binding__t.html", null ],
     [ "i3ipc::buf_t", "d3/db3/structi3ipc_1_1buf__t.html", null ],
     [ "i3ipc::connection", "d8/dd6/classi3ipc_1_1connection.html", null ],
     [ "i3ipc::container_t", "dd/d14/structi3ipc_1_1container__t.html", null ],

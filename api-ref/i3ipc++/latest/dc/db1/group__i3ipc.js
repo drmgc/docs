@@ -56,9 +56,17 @@ var group__i3ipc =
       [ "container", "d7/dad/structi3ipc_1_1window__event__t.html#a7be6dde884b5c7a5dde8e9ccfdacfb33", null ],
       [ "type", "d7/dad/structi3ipc_1_1window__event__t.html#a91ff29abb1cedc06c3213c25eff183d5", null ]
     ] ],
+    [ "binding_t", "d5/d01/structi3ipc_1_1binding__t.html", [
+      [ "command", "d5/d01/structi3ipc_1_1binding__t.html#ae292f77d6792d3dfe4950773c0de5e3c", null ],
+      [ "event_state_mask", "d5/d01/structi3ipc_1_1binding__t.html#a500f715336af4e921ed8c8a778729d15", null ],
+      [ "input_code", "d5/d01/structi3ipc_1_1binding__t.html#a6c17cc622d9077a544b6106df94ff1cd", null ],
+      [ "input_type", "d5/d01/structi3ipc_1_1binding__t.html#a156910c3418e044ba2434a8a15168fb3", null ],
+      [ "symbol", "d5/d01/structi3ipc_1_1binding__t.html#ae86b24e7767da6b3b311b8fc0f2870e1", null ]
+    ] ],
     [ "connection", "d8/dd6/classi3ipc_1_1connection.html", [
       [ "connection", "d8/dd6/classi3ipc_1_1connection.html#a749d8b8e0c053ffbe555e24387f02ff3", null ],
       [ "~connection", "d8/dd6/classi3ipc_1_1connection.html#a3aea264749b41bce98740d852100c025", null ],
+      [ "get_file_descriptor", "d8/dd6/classi3ipc_1_1connection.html#ae7c132a4ed773df092eb2b8062a0aa9d", null ],
       [ "get_outputs", "d8/dd6/classi3ipc_1_1connection.html#ab24e2a7aace0d73708c4a55fe98788ad", null ],
       [ "get_tree", "d8/dd6/classi3ipc_1_1connection.html#ab47924d9f13c7b268eb346acd7a2e085", null ],
       [ "get_version", "d8/dd6/classi3ipc_1_1connection.html#a10076546f7debad998c8cdfce1b62ea1", null ],
@@ -68,6 +76,7 @@ var group__i3ipc =
       [ "send_command", "d8/dd6/classi3ipc_1_1connection.html#a8700d2eb4a2e72d6d64cce339b014b01", null ],
       [ "subscribe", "d8/dd6/classi3ipc_1_1connection.html#a646ed413acecdc1952dd9968f3447691", null ],
       [ "signal_barconfig_update_event", "d8/dd6/classi3ipc_1_1connection.html#a21e89b6b1a64a672552e6e8d3984d264", null ],
+      [ "signal_binding_event", "d8/dd6/classi3ipc_1_1connection.html#a9bfb6b0e1b12357533d4a05215a020d6", null ],
       [ "signal_event", "d8/dd6/classi3ipc_1_1connection.html#ad8e20f7a2a6b7ab53c61cad046b15dae", null ],
       [ "signal_mode_event", "d8/dd6/classi3ipc_1_1connection.html#a798a5c4ca76c34c73ccbda4b00c38ed2", null ],
       [ "signal_output_event", "d8/dd6/classi3ipc_1_1connection.html#a585e58c3d21254c34941fa19299fbcd4", null ],
@@ -81,8 +90,10 @@ var group__i3ipc =
       [ "ET_OUTPUT", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a68c29c451e0607d802fe57d39804b2aa", null ],
       [ "ET_MODE", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201abab100cbc12169ca5663aca89bc40d22", null ],
       [ "ET_WINDOW", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a8977769b1b1afdb5f43dca6f4bc079fa", null ],
-      [ "ET_BARCONFIG_UPDATE", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201ad2900b0ebd70cf717bbdfcd3da424dd0", null ]
+      [ "ET_BARCONFIG_UPDATE", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201ad2900b0ebd70cf717bbdfcd3da424dd0", null ],
+      [ "ET_BINDING", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a5903e75de7c43a7d345e4a8c89041db9", null ]
     ] ],
+    [ "InputType", "dc/db1/group__i3ipc.html#gac1ab7c9ab08c2a0c31c9d9b0c3b84872", null ],
     [ "WindowEventType", "dc/db1/group__i3ipc.html#ga974e16ecaea3bedf7044c559f96ebd1b", [
       [ "NEW", "dc/db1/group__i3ipc.html#gga974e16ecaea3bedf7044c559f96ebd1ba24d459a81449d7210c8f9a86c2913034", null ],
       [ "CLOSE", "dc/db1/group__i3ipc.html#gga974e16ecaea3bedf7044c559f96ebd1ba7286293c9125ac7d7bace94c190bc16d", null ],

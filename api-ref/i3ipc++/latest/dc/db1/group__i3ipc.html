@@ -127,6 +127,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dad/structi3ipc_1_1window__event__t.html">i3ipc::window_event_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A window event.  <a href="../../d7/dad/structi3ipc_1_1window__event__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/structi3ipc_1_1binding__t.html">i3ipc::binding_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A binding.  <a href="../../d5/d01/structi3ipc_1_1binding__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html">i3ipc::connection</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to the i3.  <a href="../../d8/dd6/classi3ipc_1_1connection.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,7 +142,8 @@ Enumerations</h2></td></tr>
 <a class="el" href="../../dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201abab100cbc12169ca5663aca89bc40d22">i3ipc::ET_MODE</a> = (1 &lt;&lt; 2), 
 <a class="el" href="../../dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a8977769b1b1afdb5f43dca6f4bc079fa">i3ipc::ET_WINDOW</a> = (1 &lt;&lt; 3), 
 <br />
-&#160;&#160;<a class="el" href="../../dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201ad2900b0ebd70cf717bbdfcd3da424dd0">i3ipc::ET_BARCONFIG_UPDATE</a> = (1 &lt;&lt; 4)
+&#160;&#160;<a class="el" href="../../dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201ad2900b0ebd70cf717bbdfcd3da424dd0">i3ipc::ET_BARCONFIG_UPDATE</a> = (1 &lt;&lt; 4), 
+<a class="el" href="../../dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a5903e75de7c43a7d345e4a8c89041db9">i3ipc::ET_BINDING</a> = (1 &lt;&lt; 5)
 <br />
  }</td></tr>
 <tr class="memdesc:ga4b48a64db35bd8869c95fbddb4641201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of the events of i3.  <a href="../../dc/db1/group__i3ipc.html#ga4b48a64db35bd8869c95fbddb4641201">More...</a><br /></td></tr>
@@ -165,10 +169,14 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga974e16ecaea3bedf7044c559f96ebd1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of window events.  <a href="../../dc/db1/group__i3ipc.html#ga974e16ecaea3bedf7044c559f96ebd1b">More...</a><br /></td></tr>
 <tr class="separator:ga974e16ecaea3bedf7044c559f96ebd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf57dcef1ca7b72ee6810f19785345eaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf57dcef1ca7b72ee6810f19785345eaf"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db1/group__i3ipc.html#gaf57dcef1ca7b72ee6810f19785345eaf">i3ipc::BorderStyle</a> : char { <b>UNKNOWN</b> = '?', 
+<tr class="memitem:gaf57dcef1ca7b72ee6810f19785345eaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf57dcef1ca7b72ee6810f19785345eaf"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db1/group__i3ipc.html#gaf57dcef1ca7b72ee6810f19785345eaf">i3ipc::BorderStyle</a> : char { <br />
+&#160;&#160;<b>UNKNOWN</b> = '?', 
 <b>NONE</b> = 'N', 
 <b>NORMAL</b> = 'n', 
-<b>ONE_PIXEL</b> = '1'
+<b>PIXEL</b> = 'P', 
+<br />
+&#160;&#160;<b>ONE_PIXEL</b> = '1'
+<br />
  }</td></tr>
 <tr class="memdesc:gaf57dcef1ca7b72ee6810f19785345eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">A style of a container's border. <br /></td></tr>
 <tr class="separator:gaf57dcef1ca7b72ee6810f19785345eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +193,12 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga4ee731789ffc5df6475d6f50112461c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type of a container's layout. <br /></td></tr>
 <tr class="separator:ga4ee731789ffc5df6475d6f50112461c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac1ab7c9ab08c2a0c31c9d9b0c3b84872"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac1ab7c9ab08c2a0c31c9d9b0c3b84872"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db1/group__i3ipc.html#gac1ab7c9ab08c2a0c31c9d9b0c3b84872">i3ipc::InputType</a> : char { <b>UNKNOWN</b> = '?', 
+<b>KEYBOARD</b> = 'k', 
+<b>MOUSE</b> = 'm'
+ }</td></tr>
+<tr class="memdesc:gac1ab7c9ab08c2a0c31c9d9b0c3b84872"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type of the input of bindings. <br /></td></tr>
+<tr class="separator:gac1ab7c9ab08c2a0c31c9d9b0c3b84872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -215,6 +229,9 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga4b48a64db35bd8869c95fbddb4641201ad2900b0ebd70cf717bbdfcd3da424dd0"></a>ET_BARCONFIG_UPDATE&#160;</td><td class="fielddoc">
 <p>Bar config update event. </p>
 <dl class="section attention"><dt>Attention</dt><dd>Yet is not implemented as signal in connection </dd></dl>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga4b48a64db35bd8869c95fbddb4641201a5903e75de7c43a7d345e4a8c89041db9"></a>ET_BINDING&#160;</td><td class="fielddoc">
+<p>Binding event. </p>
 </td></tr>
 </table>
 
@@ -309,7 +326,7 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Apr 24 2016 11:03:00 for i3ipc++ by
+    <li class="footer">Generated on Sun Sep 4 2016 18:04:03 for i3ipc++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

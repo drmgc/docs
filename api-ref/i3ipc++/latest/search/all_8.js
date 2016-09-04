@@ -10,6 +10,8 @@ var searchData=
   ['i3_20ipc_20internal_20utilities',['i3 IPC internal utilities',['../d5/dc1/group__i3ipc__util.html',1,'']]],
   ['id',['id',['../dd/d14/structi3ipc_1_1container__t.html#a1b63ba7bce9c63d3f56d6e40daea3765',1,'i3ipc::container_t']]],
   ['init',['INIT',['../dc/db1/group__i3ipc.html#ggaf9de13d08c4f8cac3669a82a878b93d3afaee4ca3c30ee18148ce3ada37466498',1,'i3ipc']]],
+  ['input_5fcode',['input_code',['../d5/d01/structi3ipc_1_1binding__t.html#a6c17cc622d9077a544b6106df94ff1cd',1,'i3ipc::binding_t']]],
+  ['inputtype',['InputType',['../dc/db1/group__i3ipc.html#gac1ab7c9ab08c2a0c31c9d9b0c3b84872',1,'i3ipc']]],
   ['invalid_5fheader_5ferror',['invalid_header_error',['../d2/d5d/classi3ipc_1_1invalid__header__error.html',1,'i3ipc']]],
   ['invalid_5freply_5fpayload_5ferror',['invalid_reply_payload_error',['../de/d5c/classi3ipc_1_1invalid__reply__payload__error.html',1,'i3ipc']]],
   ['ipc_5ferror',['ipc_error',['../d0/dbc/classi3ipc_1_1ipc__error.html',1,'i3ipc']]]

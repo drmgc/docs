@@ -149,6 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e92850b0cffa9f9924d1f8438c7ae9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html#a7e92850b0cffa9f9924d1f8438c7ae9a">handle_event</a> ()</td></tr>
 <tr class="memdesc:a7e92850b0cffa9f9924d1f8438c7ae9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle an event from i3.  <a href="#a7e92850b0cffa9f9924d1f8438c7ae9a">More...</a><br /></td></tr>
 <tr class="separator:a7e92850b0cffa9f9924d1f8438c7ae9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7c132a4ed773df092eb2b8062a0aa9d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html#ae7c132a4ed773df092eb2b8062a0aa9d">get_file_descriptor</a> ()</td></tr>
+<tr class="memdesc:ae7c132a4ed773df092eb2b8062a0aa9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the file descriptor associated to i3.  <a href="#ae7c132a4ed773df092eb2b8062a0aa9d">More...</a><br /></td></tr>
+<tr class="separator:ae7c132a4ed773df092eb2b8062a0aa9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -174,6 +177,11 @@ sigc::signal&lt; void, const <br class="typebreak" />
 sigc::signal&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html#a21e89b6b1a64a672552e6e8d3984d264">signal_barconfig_update_event</a></td></tr>
 <tr class="memdesc:a21e89b6b1a64a672552e6e8d3984d264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Barconfig update event signal. <br /></td></tr>
 <tr class="separator:a21e89b6b1a64a672552e6e8d3984d264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bfb6b0e1b12357533d4a05215a020d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bfb6b0e1b12357533d4a05215a020d6"></a>
+sigc::signal&lt; void, const <br class="typebreak" />
+<a class="el" href="../../d5/d01/structi3ipc_1_1binding__t.html">binding_t</a> &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html#a9bfb6b0e1b12357533d4a05215a020d6">signal_binding_event</a></td></tr>
+<tr class="memdesc:a9bfb6b0e1b12357533d4a05215a020d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binding event signal. <br /></td></tr>
+<tr class="separator:a9bfb6b0e1b12357533d4a05215a020d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e20f7a2a6b7ab53c61cad046b15dae"><td class="memItemLeft" align="right" valign="top">sigc::signal&lt; void, <a class="el" href="../../dc/db1/group__i3ipc.html#ga4b48a64db35bd8869c95fbddb4641201">EventType</a>, <br class="typebreak" />
 const std::shared_ptr&lt; const <br class="typebreak" />
 <a class="el" href="../../d3/db3/structi3ipc_1_1buf__t.html">buf_t</a> &gt; &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html#ad8e20f7a2a6b7ab53c61cad046b15dae">signal_event</a></td></tr>
@@ -208,6 +216,24 @@ const std::shared_ptr&lt; const <br class="typebreak" />
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae7c132a4ed773df092eb2b8062a0aa9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t i3ipc::connection::get_file_descriptor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the file descriptor associated to i3. </p>
+<dl class="section return"><dt>Returns</dt><dd>the file descriptor associated to i3, -1 if not created yet. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ab24e2a7aace0d73708c4a55fe98788ad"></a>
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +420,7 @@ const std::shared_ptr&lt; const <br class="typebreak" />
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>i3ipc</b></li><li class="navelem"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html">connection</a></li>
-    <li class="footer">Generated on Sun Apr 24 2016 11:03:00 for i3ipc++ by
+    <li class="footer">Generated on Sun Sep 4 2016 18:04:03 for i3ipc++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
