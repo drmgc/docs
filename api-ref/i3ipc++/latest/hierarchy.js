@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "i3ipc::bar_config_t", "d7/d45/structi3ipc_1_1bar__config__t.html", null ],
     [ "i3ipc::binding_t", "d5/d01/structi3ipc_1_1binding__t.html", null ],
     [ "i3ipc::buf_t", "d3/db3/structi3ipc_1_1buf__t.html", null ],
     [ "i3ipc::connection", "d8/dd6/classi3ipc_1_1connection.html", null ],
@@ -8,6 +9,7 @@ var hierarchy =
       [ "std::runtime_error", null, [
         [ "i3ipc::ipc_error", "d0/dbc/classi3ipc_1_1ipc__error.html", [
           [ "i3ipc::eof_error", "de/db8/classi3ipc_1_1eof__error.html", null ],
+          [ "i3ipc::errno_error", "d1/d2e/classi3ipc_1_1errno__error.html", null ],
           [ "i3ipc::invalid_header_error", "d2/d5d/classi3ipc_1_1invalid__header__error.html", null ],
           [ "i3ipc::invalid_reply_payload_error", "de/d5c/classi3ipc_1_1invalid__reply__payload__error.html", null ]
         ] ]

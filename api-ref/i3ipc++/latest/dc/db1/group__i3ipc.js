@@ -63,10 +63,24 @@ var group__i3ipc =
       [ "input_type", "d5/d01/structi3ipc_1_1binding__t.html#a156910c3418e044ba2434a8a15168fb3", null ],
       [ "symbol", "d5/d01/structi3ipc_1_1binding__t.html#ae86b24e7767da6b3b311b8fc0f2870e1", null ]
     ] ],
+    [ "bar_config_t", "d7/d45/structi3ipc_1_1bar__config__t.html", [
+      [ "binding_mode_indicator", "d7/d45/structi3ipc_1_1bar__config__t.html#a27246675e0f0dc6cc766ddd4b9d31a1d", null ],
+      [ "colors", "d7/d45/structi3ipc_1_1bar__config__t.html#a132905758d3277aa29de3f925247c195", null ],
+      [ "font", "d7/d45/structi3ipc_1_1bar__config__t.html#a944bb0fb6fd4ed4eb8a4b48a251b2c0b", null ],
+      [ "id", "d7/d45/structi3ipc_1_1bar__config__t.html#aabbe3e9dec5497720f2435f1597b6ffb", null ],
+      [ "mode", "d7/d45/structi3ipc_1_1bar__config__t.html#a80b8104fcb0ac8d2f912fad6fb8cac8c", null ],
+      [ "position", "d7/d45/structi3ipc_1_1bar__config__t.html#a1413ebd8c96fda4a4f641c8d25ab11ac", null ],
+      [ "status_command", "d7/d45/structi3ipc_1_1bar__config__t.html#a92ed25f5d8052be5f251b51dcd02a36d", null ],
+      [ "verbose", "d7/d45/structi3ipc_1_1bar__config__t.html#a6ced5e09f6da65aa2d222bc33ec35595", null ],
+      [ "workspace_buttons", "d7/d45/structi3ipc_1_1bar__config__t.html#ae8123c6b549294b8fc4ada4bc1d0b6d6", null ]
+    ] ],
     [ "connection", "d8/dd6/classi3ipc_1_1connection.html", [
       [ "connection", "d8/dd6/classi3ipc_1_1connection.html#a749d8b8e0c053ffbe555e24387f02ff3", null ],
       [ "~connection", "d8/dd6/classi3ipc_1_1connection.html#a3aea264749b41bce98740d852100c025", null ],
-      [ "get_file_descriptor", "d8/dd6/classi3ipc_1_1connection.html#ae7c132a4ed773df092eb2b8062a0aa9d", null ],
+      [ "get_bar_config", "d8/dd6/classi3ipc_1_1connection.html#a7d4936c876d6a09d69f2df82bcd0351f", null ],
+      [ "get_bar_configs_list", "d8/dd6/classi3ipc_1_1connection.html#a1ef2ea2a7b83b5bfc66ec70bf72adb1d", null ],
+      [ "get_event_socket_fd", "d8/dd6/classi3ipc_1_1connection.html#a6e1711a9fc3432bb9014d082370f51d3", null ],
+      [ "get_main_socket_fd", "d8/dd6/classi3ipc_1_1connection.html#a0e9eaa85d84fe4cf5ad5524edf24f9d5", null ],
       [ "get_outputs", "d8/dd6/classi3ipc_1_1connection.html#ab24e2a7aace0d73708c4a55fe98788ad", null ],
       [ "get_tree", "d8/dd6/classi3ipc_1_1connection.html#ab47924d9f13c7b268eb346acd7a2e085", null ],
       [ "get_version", "d8/dd6/classi3ipc_1_1connection.html#a10076546f7debad998c8cdfce1b62ea1", null ],
@@ -75,13 +89,17 @@ var group__i3ipc =
       [ "prepare_to_event_handling", "d8/dd6/classi3ipc_1_1connection.html#add3d343cca548a3a945f5fa7211568e8", null ],
       [ "send_command", "d8/dd6/classi3ipc_1_1connection.html#a8700d2eb4a2e72d6d64cce339b014b01", null ],
       [ "subscribe", "d8/dd6/classi3ipc_1_1connection.html#a646ed413acecdc1952dd9968f3447691", null ],
-      [ "signal_barconfig_update_event", "d8/dd6/classi3ipc_1_1connection.html#a21e89b6b1a64a672552e6e8d3984d264", null ],
+      [ "signal_barconfig_update_event", "d8/dd6/classi3ipc_1_1connection.html#a760e10ea414ad55f01f805a3ae323119", null ],
       [ "signal_binding_event", "d8/dd6/classi3ipc_1_1connection.html#a9bfb6b0e1b12357533d4a05215a020d6", null ],
       [ "signal_event", "d8/dd6/classi3ipc_1_1connection.html#ad8e20f7a2a6b7ab53c61cad046b15dae", null ],
       [ "signal_mode_event", "d8/dd6/classi3ipc_1_1connection.html#a798a5c4ca76c34c73ccbda4b00c38ed2", null ],
       [ "signal_output_event", "d8/dd6/classi3ipc_1_1connection.html#a585e58c3d21254c34941fa19299fbcd4", null ],
       [ "signal_window_event", "d8/dd6/classi3ipc_1_1connection.html#acdf437c298aed934195c27d4d1062b38", null ],
       [ "signal_workspace_event", "d8/dd6/classi3ipc_1_1connection.html#a22fc43e6efc42996645a03c17c05c4ec", null ]
+    ] ],
+    [ "BarMode", "dc/db1/group__i3ipc.html#ga05145599ab6de71b3ed4b5cdf231fed4", [
+      [ "DOCK", "dc/db1/group__i3ipc.html#gga05145599ab6de71b3ed4b5cdf231fed4ad35528854005ae2cc3e557a177594c5a", null ],
+      [ "HIDE", "dc/db1/group__i3ipc.html#gga05145599ab6de71b3ed4b5cdf231fed4a1e50e487f8672658546e3609404b53df", null ]
     ] ],
     [ "BorderStyle", "dc/db1/group__i3ipc.html#gaf57dcef1ca7b72ee6810f19785345eaf", null ],
     [ "ContainerLayout", "dc/db1/group__i3ipc.html#ga4ee731789ffc5df6475d6f50112461c0", null ],
@@ -94,6 +112,7 @@ var group__i3ipc =
       [ "ET_BINDING", "dc/db1/group__i3ipc.html#gga4b48a64db35bd8869c95fbddb4641201a5903e75de7c43a7d345e4a8c89041db9", null ]
     ] ],
     [ "InputType", "dc/db1/group__i3ipc.html#gac1ab7c9ab08c2a0c31c9d9b0c3b84872", null ],
+    [ "Position", "dc/db1/group__i3ipc.html#ga78bb458781e1375c4182413c93e0e595", null ],
     [ "WindowEventType", "dc/db1/group__i3ipc.html#ga974e16ecaea3bedf7044c559f96ebd1b", [
       [ "NEW", "dc/db1/group__i3ipc.html#gga974e16ecaea3bedf7044c559f96ebd1ba24d459a81449d7210c8f9a86c2913034", null ],
       [ "CLOSE", "dc/db1/group__i3ipc.html#gga974e16ecaea3bedf7044c559f96ebd1ba7286293c9125ac7d7bace94c190bc16d", null ],

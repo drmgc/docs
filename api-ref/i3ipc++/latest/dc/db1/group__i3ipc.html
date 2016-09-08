@@ -103,6 +103,14 @@ $(document).ready(function(){initNavTree('dc/db1/group__i3ipc.html','../../');})
 <div class="title">i3 IPC C++ binding</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for i3 IPC C++ binding:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="../../dc/db1/group__i3ipc.png" border="0" alt="" usemap="#dc_2db1_2group____i3ipc"/>
+<map name="dc_2db1_2group____i3ipc" id="dc_2db1_2group____i3ipc">
+<area shape="rect" id="node1" href="../../d8/dff/group__logging.html" title="Logging" alt="" coords="216,7,283,33"/></map>
+</td></tr></table></center>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -129,6 +137,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/structi3ipc_1_1binding__t.html">i3ipc::binding_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A binding.  <a href="../../d5/d01/structi3ipc_1_1binding__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d45/structi3ipc_1_1bar__config__t.html">i3ipc::bar_config_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bar configuration.  <a href="../../d7/d45/structi3ipc_1_1bar__config__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/classi3ipc_1_1connection.html">i3ipc::connection</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to the i3.  <a href="../../d8/dd6/classi3ipc_1_1connection.html#details">More...</a><br /></td></tr>
@@ -199,9 +210,51 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:gac1ab7c9ab08c2a0c31c9d9b0c3b84872"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type of the input of bindings. <br /></td></tr>
 <tr class="separator:gac1ab7c9ab08c2a0c31c9d9b0c3b84872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05145599ab6de71b3ed4b5cdf231fed4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db1/group__i3ipc.html#ga05145599ab6de71b3ed4b5cdf231fed4">i3ipc::BarMode</a> : char { <b>UNKNOWN</b> = '?', 
+<a class="el" href="../../dc/db1/group__i3ipc.html#gga05145599ab6de71b3ed4b5cdf231fed4ad35528854005ae2cc3e557a177594c5a">i3ipc::BarMode::DOCK</a> = 'd', 
+<a class="el" href="../../dc/db1/group__i3ipc.html#gga05145599ab6de71b3ed4b5cdf231fed4a1e50e487f8672658546e3609404b53df">i3ipc::BarMode::HIDE</a> = 'h'
+ }</td></tr>
+<tr class="memdesc:ga05145599ab6de71b3ed4b5cdf231fed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mode of a bar.  <a href="../../dc/db1/group__i3ipc.html#ga05145599ab6de71b3ed4b5cdf231fed4">More...</a><br /></td></tr>
+<tr class="separator:ga05145599ab6de71b3ed4b5cdf231fed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78bb458781e1375c4182413c93e0e595"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga78bb458781e1375c4182413c93e0e595"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db1/group__i3ipc.html#ga78bb458781e1375c4182413c93e0e595">i3ipc::Position</a> : char { <b>UNKNOWN</b> = '?', 
+<b>TOP</b> = 't', 
+<b>BOTTOM</b> = 'b'
+ }</td></tr>
+<tr class="memdesc:ga78bb458781e1375c4182413c93e0e595"><td class="mdescLeft">&#160;</td><td class="mdescRight">A position (of a bar?) <br /></td></tr>
+<tr class="separator:ga78bb458781e1375c4182413c93e0e595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga05145599ab6de71b3ed4b5cdf231fed4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/db1/group__i3ipc.html#ga05145599ab6de71b3ed4b5cdf231fed4">i3ipc::BarMode</a> : char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A mode of a bar. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga05145599ab6de71b3ed4b5cdf231fed4ad35528854005ae2cc3e557a177594c5a"></a>DOCK&#160;</td><td class="fielddoc">
+<p>The bar sets the dock window type. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga05145599ab6de71b3ed4b5cdf231fed4a1e50e487f8672658546e3609404b53df"></a>HIDE&#160;</td><td class="fielddoc">
+<p>The bar does not show unless a specific key is pressed. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="ga4b48a64db35bd8869c95fbddb4641201"></a>
 <div class="memitem">
 <div class="memproto">
@@ -326,7 +379,7 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Sep 4 2016 18:04:03 for i3ipc++ by
+    <li class="footer">Generated on Thu Sep 8 2016 19:19:59 for i3ipc++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

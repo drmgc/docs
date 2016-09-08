@@ -9,6 +9,10 @@ var group__i3ipc__util =
     [ "invalid_header_error", "d2/d5d/classi3ipc_1_1invalid__header__error.html", null ],
     [ "eof_error", "de/db8/classi3ipc_1_1eof__error.html", null ],
     [ "invalid_reply_payload_error", "de/d5c/classi3ipc_1_1invalid__reply__payload__error.html", null ],
+    [ "errno_error", "d1/d2e/classi3ipc_1_1errno__error.html", [
+      [ "errno_error", "d1/d2e/classi3ipc_1_1errno__error.html#a7868e6d5f3df990c42b9e3dbb4146a26", null ],
+      [ "errno_error", "d1/d2e/classi3ipc_1_1errno__error.html#a619c2de5b42eb7a081de13c43692cc27", null ]
+    ] ],
     [ "buf_t", "d3/db3/structi3ipc_1_1buf__t.html", [
       [ "buf_t", "d3/db3/structi3ipc_1_1buf__t.html#af1dcf06c92ab26fea661825c2cb455dc", null ],
       [ "~buf_t", "d3/db3/structi3ipc_1_1buf__t.html#a568c42cdb735bd08370e9168dc4dccee", null ],

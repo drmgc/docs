@@ -2,6 +2,7 @@ var searchData=
 [
   ['clientmessagetype',['ClientMessageType',['../d5/dc1/group__i3ipc__util.html#ga6eae9939443587fa281ee88b58a7819b',1,'i3ipc']]],
   ['close',['CLOSE',['../dc/db1/group__i3ipc.html#gga974e16ecaea3bedf7044c559f96ebd1ba7286293c9125ac7d7bace94c190bc16d',1,'i3ipc']]],
+  ['colors',['colors',['../d7/d45/structi3ipc_1_1bar__config__t.html#a132905758d3277aa29de3f925247c195',1,'i3ipc::bar_config_t']]],
   ['command',['command',['../d5/d01/structi3ipc_1_1binding__t.html#ae292f77d6792d3dfe4950773c0de5e3c',1,'i3ipc::binding_t']]],
   ['connection',['connection',['../d8/dd6/classi3ipc_1_1connection.html#a749d8b8e0c053ffbe555e24387f02ff3',1,'i3ipc::connection']]],
   ['connection',['connection',['../d8/dd6/classi3ipc_1_1connection.html',1,'i3ipc']]],
